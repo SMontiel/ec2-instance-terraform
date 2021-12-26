@@ -1,6 +1,16 @@
-# ec2-instance
+# ec2-instance-terraform
 
 IasC to provision an EC2 instance with Docker installed.
+
+## Setup to provision
+
+```bash
+export AWS_ACCESS_KEY_ID="your_access_key_id"
+export AWS_SECRET_ACCESS_KEY="your_secret_access_key"
+terraform init
+terraform plan
+terraform apply
+```
 
 ## Access using SSH
 
