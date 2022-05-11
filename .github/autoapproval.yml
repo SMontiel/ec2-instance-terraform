@@ -1,0 +1,13 @@
+_extends: github-settings
+
+from_owner: 
+  - SMontiel
+
+required_labels: 
+  - approval
+
+blacklisted_labels:
+  - wip
+
+apply_labels:
+  - merge
