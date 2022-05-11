@@ -1,13 +1,11 @@
-_extends: github-settings
-
 from_owner: 
   - SMontiel
 
 required_labels: 
-  - approval
+  - auto-approval
 
 blacklisted_labels:
   - wip
 
 apply_labels:
-  - merge
+  - auto-approved
