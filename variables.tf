@@ -29,3 +29,4 @@ variable "ssh-public-key" {
   type        = string
   description = "Public key for SSH access. Get from 'cat ~/.ssh/id_ed25519.pub'"
 }
+
